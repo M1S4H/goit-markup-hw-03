@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --text-color: #ffffff;
+  --title-color: #757575;
+  --niebo-color: #2196f3;
+  --dark-color: #212121;
+}
+.pointer {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-weight: 400;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.84;
+}
+.links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: var(--dark-color);
+}
+
+.links:hover,
+.links:focus {
+  color: var(--niebo-color);
+}
+.adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: var(--title-color);
+}
+.adress:hover,
+.adress:focus {
+  color: var(--niebo-color);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  background: #2f303a;
+  color: var(--text-color);
+}
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button-order:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.h3-lorem {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.875;
+}
+.p-lorem {
+  font-size: 14px;
+  line-height: 0.58;
+  color: var(--title-color);
+}
+.h2-todo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.86;
+}
+.h2-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.86;
+}
+.h3-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.85;
+}
+.p-team {
+  font-size: 16px;
+  line-height: 0.85;
+  color: var(--title-color);
+}
+.p-adress {
+  font-size: 14px;
+  line-height: 0.5833333333;
+  color: var(--text-color);
+}
+footer {
+  background: #2f303a;
+}
+.button-select {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.65;
+  background: #f5f4fa;
+}
+.button-select:hover,
+.button-select:focus {
+  color: var(--text-color);
+  background-color: var(--niebo-color);
+}
+.order-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.order-text {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--title-color);
+}
