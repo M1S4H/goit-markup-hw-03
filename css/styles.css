@@ -116,12 +116,15 @@ h1 {
 }
 footer {
   background: #2f303a;
+  width: 100vw;
+  padding: 20px 0;
 }
 .button-select {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.65;
   background: #f5f4fa;
+  border-radius: 4px;
 }
 .button-select:hover,
 .button-select:focus {
@@ -156,6 +159,12 @@ header li {
   background: #2f303a;
   margin-top: 0;
   margin-bottom: 0;
+}
+.head-text {
+  max-width: 696px;
+  text-align: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 .first-section h1 {
   text-align: center;
@@ -218,16 +227,35 @@ header li {
   height: auto;
 }
 .footer-adress {
+  margin-top: 60px;
   margin-bottom: 20px;
 }
-.footer-adress .p-adress {
-  margin-top: 9px;
+
+.image-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -30px;
 }
 
-.footer-adress .adress {
-  margin-top: 9px;
+.image-list li {
+  flex-basis: calc(33.33% - 30px);
+  margin-bottom: 30px;
 }
 
-.footer-adress .adress:last-child {
-  margin-bottom: 60px;
+.image-list li img {
+  max-width: 100%;
+  height: auto;
+}
+.image-container {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  padding-bottom: 20px;
+}
+.button-click {
+  display: inline-block;
+  margin-right: 8px;
+  justify-content: center;
 }
