@@ -150,15 +150,12 @@ header li {
   margin-right: 46px;
 }
 .first-section {
-  width: 1600px;
   height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background: #2f303a;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .head-text {
   max-width: 696px;
