@@ -145,6 +145,10 @@ ul,
 ol {
   list-style: none; /* Usunięcie znaczników */
 }
+.heder-nav {
+  display: flex;
+  align-items: baseline;
+}
 header li {
   display: inline;
   margin-right: 46px;
@@ -255,4 +259,8 @@ header li {
   display: inline-block;
   margin-right: 8px;
   justify-content: center;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
