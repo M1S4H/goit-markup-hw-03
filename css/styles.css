@@ -5,6 +5,10 @@
   --niebo-color: #2196f3;
   --dark-color: #212121;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .pointer {
   cursor: pointer;
 }
@@ -24,8 +28,7 @@ header {
   font-size: 26px;
   line-height: 0.84;
   text-decoration: none;
-  margin-left: 215px;
-  margin-right: 93px;
+  margin-right: auto;
 }
 .logo-color {
   color: #2196f3;
@@ -94,6 +97,7 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 0.86;
+  margin-bottom: 50px;
 }
 .h3-team {
   font-weight: 500;
@@ -138,15 +142,9 @@ ul,
 ol {
   list-style: none; /* Usunięcie znaczników */
 }
-
-.conteiner {
-  width: 1200px;
-  padding-left: 215px;
-  padding-right: 215px;
-}
 header li {
   display: inline;
-  margin-right: 46px; /* opcjonalne - dodaje odstęp między elementami */
+  margin-right: 46px;
 }
 .first-section {
   width: 1600px;
@@ -156,6 +154,8 @@ header li {
   align-items: center;
   flex-direction: column;
   background: #2f303a;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .first-section h1 {
   text-align: center;
@@ -165,18 +165,69 @@ header li {
   height: 120px;
   margin-bottom: 30px;
 }
-.lorem-list {
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
+.lorem-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.lorem {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.lorem-four-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 .lorem-li {
-  /*  Set the width of the elements  */
-  width: calc(25% - 30px);
-  width: fit-content;
+  margin-bottom: 0;
+}
+.center-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.image-item {
+  flex: 1;
+}
+.section-team {
+  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+  text-align: center;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+.team-item {
+  flex-basis: calc(25% - 30px);
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-item img {
+  width: 100%;
+  height: auto;
+}
+.footer-adress {
+  margin-bottom: 20px;
+}
+.footer-adress .p-adress {
+  margin-top: 9px;
+}
+
+.footer-adress .adress {
+  margin-top: 9px;
+}
+
+.footer-adress .adress:last-child {
+  margin-bottom: 60px;
 }
