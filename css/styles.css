@@ -322,3 +322,8 @@ section:nth-child(3) {
   gap: 8px;
   padding-bottom: 50px;
 }
+header,
+nav,
+main {
+  margin: 0 auto;
+}
